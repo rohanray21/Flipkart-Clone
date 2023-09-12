@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f3f6;
+}
+
+:root {
+    --primary-color: #2874f0;
+}
+
+.container {
+    padding: 0 8px;
+}
+
+header {
+    background-color: var(--primary-color);
+    height: 56px;
+}
+header .nav-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+header .nav-container .logo {
+    display: flex;
+    min-width: 137px;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+header .nav-container .logo img{
+    width: 75px;
+    cursor: pointer;
+}
+
+header .search {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    cursor: pointer;
+}
+header .search .search-container{
+    width: 540px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+    display: flex;
+    cursor: pointer;
+}
+header .search .search-container input {
+    width: calc(100% - 32px);
+    padding: 16px;
+    outline: none;
+    border: none;
+}
+header .search .search-container button {
+    width: 36px;
+    height: 100%;
+    padding: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+header .login {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+header .login button {
+    width: 122px;
+    padding: 5px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.dropbtn {
+  background-color:var(--primary-color);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 2px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-weight: 350;
+  font-size: 14px;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:white;}
+
+header .dropdown svg {
+    margin-left: 3px;
+    rotate: -90deg;
+}
+ 
+
+.section-6 {
+    margin-top: 25px;
+    max-width: 100%;
+    height: 436px;
+    background-color: #F1ECEC;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 16%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+.section-7 {
+    margin-top: 25px;
+    max-width: 100%;
+    height: 58px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+
+.section-8{
+  height: 30px;
+  max-width: 100%;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.section-9{
+  height: 173px;
+  max-width:100%;
+  background-color: white;
+}
+.section-9 img{
+  width: 225px;
+  height: 165px;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.section-10{
+  max-width: 100%;
+  height: 165px;
+  background-color: white;
+}
+
+.section-10 .section-10-container .login {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    justify-content: center
+}
+.section-10 .section-10-container .login button {
+    width: 180px;
+    height: 43px;
+    padding: 5px 40px;
+    font-size: 15px;
+    font-weight: 420;
+    color: white;
+    background-color: #FC530A;
+    cursor: pointer;
+    border-radius: 2px;
+    border-color:#FC530A;
+    border-width:0px;
+    margin-top:20px;
+}
+
+
+
+hr{
+  margin-top: 10px;
+  border-color:#F9F8F8;
+}
+footer {
+    position: absolute;
+    margin-top: 15px;
+    padding: 10px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: auto;
+    color: #5a5a83;
+}
+.alignLeft {
+    float: left;
+    padding-left:70px;
+}
+.alignRight {
+    float: right;
+}
+.alignCenter{
+  float: center;
+  padding-left: 40px;
+  padding-right: 150px;
+}
+
+
+header .login{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+header .login button{
+    width: 122px;
+    padding: 5px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2874f0;
+    cursor: pointer;
+    background-color: white;
+}
+
+header .search .search-container{
+    width: 460px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+    display: flex;
+    cursor: pointer;
+  }
+  .nav-container .dropdown{
+    margin-left:270px;
+  }
+  .nav-container .dropdown .dropbtn button {
+      width: 122px;
+      padding: 5px 40px;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--primary-color);
+      cursor: pointer;
+      border-width: 0px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 240px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 2px;
+  }
+  .nav-container .dropdown-content svg{
+    rotate:360deg;
+    padding-left: 0px;
+    padding-right: 5px;
+  }
+  .nav-container .dropdown-content a{
+    text-decoration: none;
+    padding-right: 0px;
+    padding-left: 6px;
+    padding-top:0px;
+    padding-bottom: 4px;
+    background-color: white;
+  }
+  hr{
+    margin-top:5px;
+    margin-bottom: 6px;
+  }
+  .nav-container .search{
+    margin-left:12px;
+  }
+  .nav-container .logo{
+    margin-left:100px;
+  }
+  #a{
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  #b{
+    padding-top: 15px;
+    color: black;
+    font-size: 17px;
+     justify-content: center;
+     padding-left: 145px;
+    display: flex;
+  }
+  #c{
+    margin-top: 15px;
+    color: black;
+    font-size: 12px;
+     justify-content: center;
+     padding-left: 145px;
+    display: flex;
+  }
+  #d{
+    color:#044CD4;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+  }
+ #e{
+    height:58px;
+    color:#044CD4;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  #f{
+      text-decoration: none;
+      color:#5a5a83;
+      cursor: pointer;
+  }
